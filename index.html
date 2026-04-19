@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Suggestor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>🎬 Movie Suggestor</h1>
+        <p>Discover movies based on your mood</p>
+    </header>
+
+    <!-- Genre Buttons -->
+    <section class="genre-section">
+        <h2>Select a Genre</h2>
+        <div class="buttons">
+            <button onclick="showMovies('crime')">Crime Thriller</button>
+            <button onclick="showMovies('romantic')">Romantic</button>
+            <button onclick="showMovies('horror')">Horror</button>
+            <button onclick="showMovies('top')">Top Movies</button>
+        </div>
+    </section>
+
+    <!-- Movie Display -->
+    <section id="movie-container" class="movie-container">
+        <!-- Movies will appear here -->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Enjoy your movies 🍿</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
